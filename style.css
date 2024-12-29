@@ -43,7 +43,7 @@ form {
     line-height: 20px;
     font-family: Snell Roundhand,
         cursive;
-    color: black;
+    color: #393e46;
 }
 
 .submit-button {
@@ -71,7 +71,10 @@ form {
     border-left: 1px solid #af72b0;
     box-shadow: 1px 1px 10px#f9f9f9;
     text-align: center;
+
 }
+
+
 
 footer {
     text-align: center;
@@ -79,6 +82,28 @@ footer {
     margin-top: 30px;
 }
 
+.hidden {
+    display: none;
+}
+
 a {
     color: #b04fb4;
+}
+
+.generating {
+    animation: blink 3s ease-in-out 0s infinite normal none;
+}
+
+@keyframes blink {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
 }
