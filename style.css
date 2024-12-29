@@ -1,10 +1,10 @@
 body {
-    background: linear-gradient(174deg, rgba(255, 192, 192, 0.84) -1.5%, rgb(231, 189, 241) 45%, rgba(255, 189, 189, 0.84)-1.5%);
+    background: radial-gradient(35.2% 85.5%, rgb(231, 161, 161) 0%, rgb(212, 126, 189) 90%);
 
 }
 
 .container {
-    margin: 100px auto;
+    margin: 120px auto;
     max-width: 600px;
 }
 
@@ -16,7 +16,8 @@ h1 {
     line-height: 1.5;
     font-family: Snell Roundhand,
         cursive;
-    text-shadow: 1px 1px 10px #ed7fa6;
+    text-shadow: 1px 1px 10px #c54c82;
+
 }
 
 header {
@@ -38,7 +39,7 @@ form {
     padding: 16px;
     border: 1px solid #e280a6;
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 50px;
     line-height: 20px;
     font-family: Snell Roundhand,
