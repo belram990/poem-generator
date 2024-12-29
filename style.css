@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    margin: 120px auto;
+    margin: 100px auto;
     max-width: 600px;
 }
 
@@ -12,11 +12,11 @@ body {
 h1 {
     text-align: center;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 55px;
     line-height: 1.5;
     font-family: Snell Roundhand,
         cursive;
-    text-shadow: 1px 1px 10px#f9f9f9;
+    text-shadow: 1px 1px 10px #ed7fa6;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
 form {
     padding: 30px;
     background-color: #f9ecec;
-    border-radius: 10px;
+    border-radius: 30px;
     display: flex;
     box-shadow: 1px 1px 10px#f9f9f9;
     margin-bottom: 30px;
@@ -68,9 +68,12 @@ form {
     background-color: #f9ecec;
     padding: 20px;
     line-height: 2;
-    border-left: 1px solid #af72b0;
+    border-left: 1px solid #ec729c;
+    border-right: 1px solid #ec729c;
+    border-radius: 10px;
     box-shadow: 1px 1px 10px#f9f9f9;
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -80,6 +83,7 @@ footer {
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hidden {
