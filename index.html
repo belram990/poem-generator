@@ -7,6 +7,7 @@
     <title>AI Poem Generator</title>
     <link href="style.css" rel="stylesheet">
     </link>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 
 <body>
@@ -16,22 +17,14 @@
         </header>
 
         <main>
-            <form>
+            <form id="poem-generator-form">
                 <input type="text" placeholder="Describe the poem in a few words..." autofocus required
                     autocomplete="off" class="instruction" />
                 <input type="submit" class="submit-button" />
             </form>
-            <div class="poem">
-                Hold fast to dreams
-                For if dreams die
-                Life is a broken-winged bird
-                That cannot fly.
-                <br />
-                Hold fast to dreams
-                For when dreams go
-                Life is a barren field
-                Frozen with snow.
-                <br />
+            <div class="poem" id="poem">
+
+
 
             </div>
         </main>
