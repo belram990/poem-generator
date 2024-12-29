@@ -2,3 +2,12 @@ body {
     background: linear-gradient(109.6deg, rgb(9, 154, 151) 11.2%, rgb(21, 205, 168) 91.1%);
 
 }
+
+h1 {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+}
