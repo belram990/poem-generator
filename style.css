@@ -61,13 +61,16 @@ form {
 }
 
 .poem {
-    font-size: 16px;
-    font-family: Times, Times New Roman, serif;
+    font-size: 18px;
+    font-family: URW Chancery L,
+        cursive;
+    color: #393e46;
     background-color: #f9ecec;
     padding: 20px;
     line-height: 2;
     border-left: 1px solid #af72b0;
     box-shadow: 1px 1px 10px#f9f9f9;
+    text-align: center;
 }
 
 footer {
